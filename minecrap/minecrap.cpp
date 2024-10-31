@@ -25,7 +25,7 @@ Minecrap::Minecrap(){
     jet.loadFromFile("./assets/font/jetbrains.ttf");
 
     f1.setFont(jet);
-    f1.setFillColor(sf::Color::Yellow);
+    f1.setFillColor(sf::Color::Green);
     f1.setPosition(5,670);
     f1.setString("Pressione F1 para jogar novamente.");
 
@@ -47,7 +47,7 @@ Minecrap::Minecrap(){
     //score
     score.setFont(font);
     score.setString("Pontos: " + std::to_string(points));
-    score.setFillColor(sf::Color::White);
+    score.setFillColor(sf::Color::Green);
     score.setPosition(5.f,5.f);
 
     //lifes
