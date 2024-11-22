@@ -31,10 +31,10 @@
  make
 ```
 ----
-#Minecrap
+# Minecrap
 
 
 
-#Snake Game
+# Snake Game
 
 
